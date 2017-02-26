@@ -1,0 +1,10 @@
+$TTL 604800
+@    IN SOA   %DNS_HOST%.    admin.localhost. (
+     1024    ; Serial
+     604800  ; Refresh
+     86400   ; Retry
+     2419200 ; Expire
+     604800 ); TTL Cache
+;
+@    IN NS %DNS_HOST%.
+%DNS_DOMAIN_NAME%.   IN   MX    10   mail.%DNS_DOMAIN_NAME%.

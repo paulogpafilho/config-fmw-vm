@@ -1,0 +1,10 @@
+$TTL 604800
+@    IN    SOA    %DNS_HOST%. root.localhost. (
+2014032601     ; serial number
+7200           ; refresh (2hrs)
+3600           ; retry (1hr)
+151200         ; expire (1 week)
+86400 )        ; default TTL
+;
+; define our name servers:
+@ IN  NS     %SIMPLE_HOSTNAME%.

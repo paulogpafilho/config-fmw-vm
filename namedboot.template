@@ -1,0 +1,4 @@
+directory    /var/named
+cache        .                            named.ca
+primary      %DNS_DOMAIN_NAME%            %DNS_DOMAIN_NAME%
+primary      %REVERSE_IP%.in-addr.arpa    %NORMAL_IP%

@@ -1,0 +1,2 @@
+127.0.0.1      localhost.localdomain localhost
+%IP_ADDRESS%    %FULL_NAME%    %SIMPLE_NAME%
